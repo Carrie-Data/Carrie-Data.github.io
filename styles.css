@@ -1,51 +1,50 @@
 /* Add your styles here */
 
 .navbar-brand{
-    background-color: #0cb6be;
+    background-color: #6f6dec;
     color: white!important;
     padding-top: 0.5rem;
     padding-bottom: .5rem;
     padding-left: 0.5rem;
     padding-right: .5rem;
-    margin-left: 2rem
+    margin-left: 1rem
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
+.navbar-nav.ml-auto.mt-2.mt-lg-0{
+  padding-right: 5rem;
+}
 
 h2{
    color:  black;
-}
-
-footer{
-    background-color: grey;
-    border-top-color: #0cb6be!important;
-    border-top-width: 10rem!important;
-}
-
-.text-muted{
-  color: white!important;
+   justify-content: center;
 }
 
 .card{
   margin: 3% 3% 3% 3%;
   padding: 1% 3% 3% 3%;
-  border-color: #0cb6be;
+  border-color: #6f6dec;
   border-width: 1%;
 }
 
-#outer_card{
-  padding-top: 1%;
-  border-color: #0cb6be;
-  border-width: 1%;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 body{
   background-color: lightgrey;
 }
 
-#two-cards{
-  background-color: lightgrey;
+footer{
+    background-color: grey;
+    border-top: 5px solid #6f6dec;
+}
+
+.text-muted{
+  color: white!important;
 }
